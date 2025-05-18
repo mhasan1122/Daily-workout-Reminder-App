@@ -12,7 +12,6 @@ A simple task reminder mobile app built with **React Native** and **TypeScript**
 - ✅ Mark tasks as complete or delete them
 - 🔔 Local push notifications when tasks are due
 - 📆 Optional calendar view for scheduled tasks
-- 🌙 Dark mode (optional)
 
 ---
 
@@ -37,14 +36,6 @@ npm install
 
 ---
 
-## 🔧 iOS Setup (if needed)
-
-> Make sure to follow the extra setup steps for iOS if using `react-native-push-notification`.
-
-```bash
-cd ios
-pod install
-```
 
 Add permissions to `Info.plist`:
 
@@ -117,15 +108,3 @@ App.tsx
 * [ ] Calendar view enhancement
 * [ ] User settings and themes
 
----
-
-## 📄 License
-
-MIT License © \[Your Name]
-
-```
-
----
-
-Let me know if you’d like to auto-generate the README with your name, GitHub repo link, or specific folders you're using in your project.
-```
